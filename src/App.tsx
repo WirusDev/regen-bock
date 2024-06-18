@@ -9,11 +9,13 @@ import ProductFotos from "./components/basic/ProductFotos";
 import Products from "./components/basic/Products";
 import Zeit from "./components/basic/Zeit";
 import Footer from "./components/basic/Footer";
+import HomeVideo from "./components/basic/Video";
 const App: React.FC = () => {
   return (
     <>
       <Navbar />
       <section className='max-w-screen-xl mx-auto px-4'>
+        <HomeVideo />
         <BockAufRegen />
         <CardGrid />
       </section>

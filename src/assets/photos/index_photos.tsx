@@ -9,7 +9,7 @@ import ProdItem1 from "./Image.png";
 import ProdItem2 from "./Image copy.png";
 import ProdItem3 from "./Image copy 2.png";
 import ProdItem4 from "./Image copy 3.png";
-
+import Video from "../video/0616.mp4";
 export {
   Wow1,
   Wow2,
@@ -22,4 +22,5 @@ export {
   ProdItem2,
   ProdItem3,
   ProdItem4,
+  Video,
 };

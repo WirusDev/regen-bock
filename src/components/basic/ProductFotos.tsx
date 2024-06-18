@@ -41,7 +41,7 @@ export default function ProductFotos() {
         className='relative z-10 text-black md:left-[6rem]'
         initial={{ x: -1000, scale: 0 }}
         animate={controls1}
-        transition={{ type: "spring", stiffness: 100, damping: 20 }}
+        transition={{ type: "spring", stiffness: 100, damping: 20, delay: 0.5 }}
       >
         <motion.img
           whileHover={{ scale: 1.1, rotate: -15 }}
