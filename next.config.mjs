@@ -1,4 +1,5 @@
 // next.config.mjs
+import path from "path";
 
 const nextConfig = {
   webpack(config, { isServer }) {
