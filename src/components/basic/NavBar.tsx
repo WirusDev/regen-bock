@@ -2,7 +2,7 @@ import fullLogo from "./../../assets/RegenBock_Logo.svg";
 
 export default function Navbar() {
   return (
-    <div className='navbar  bg-navbar-gradient bg-cover bg-right-left h-[50px] z-50 text-black rounded-full w-full max-w-[1248px] mx-auto  px-4 sticky top-2'>
+    <div className='navbar h-[50px] z-50 text-black rounded-b-[35px] w-full max-w-[1248px] mx-auto top-0 px-4 sticky  bg-gradient from-transparent to-tertiary via-tertiary backdrop-blur-sm'>
       <div className='navbar-start'>
         <div className='dropdown'>
           <div
@@ -28,7 +28,7 @@ export default function Navbar() {
           </div>
           <ul
             tabIndex={0}
-            className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#D9D3DB] rounded-box w-52' //bg-navbar-gradient bg-cover bg-center
+            className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-md rounded-box w-52 bg-bg' //bg-navbar-gradient bg-cover bg-center
           >
             <li>
               <a>Homepage</a>
@@ -108,7 +108,7 @@ export default function Navbar() {
           </div>
           <div
             tabIndex={0}
-            className='mt-3 z-[1] card card-compact dropdown-content w-52 bg-[#42628B] text-white shadow' // bg-navbar-gradient bg-cover bg-center
+            className='mt-3 z-[1] card card-compact dropdown-content w-52 bg-bg text-black shadow' // bg-navbar-gradient bg-cover bg-center
           >
             <div className='card-body'>
               <span className='font-bold text-lg'>2 Artikel </span>

@@ -2,18 +2,17 @@
 import React from "react";
 import "./index.css";
 import ParalaxAnimation from "./components/animated/ParalaxScroll";
-import Navbar from "./components/basic/NavBar";
+
 import CardGrid from "./components/basic/CardGrid";
 import BockAufRegen from "./components/basic/BockAufRegen";
 import ProductFotos from "./components/basic/ProductFotos";
 import Products from "./components/basic/Products";
 import Zeit from "./components/basic/Zeit";
-import Footer from "./components/basic/Footer";
+
 import HomeVideo from "./components/basic/Video";
 const App: React.FC = () => {
   return (
     <>
-      <Navbar />
       <section className='max-w-screen-xl mx-auto px-4'>
         <HomeVideo />
         <BockAufRegen />
@@ -24,7 +23,6 @@ const App: React.FC = () => {
         <ProductFotos />
         <Products />
         <Zeit />
-        <Footer />
       </section>
     </>
   );

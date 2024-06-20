@@ -7,14 +7,14 @@ import {
 
 const Products = () => {
   return (
-    <div className='w-full my-8'>
+    <div className='max-w-screen-xl my-8'>
       <p className='bold-p'>Tagline</p>
       <h1 className='5xl'>Products</h1>
       <p className=''>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel reiciendis
       </p>
       <div className=' pt-12 pb-[100px]'>
-        <div className='m-auto carousel carousel-center w-[98svw] space-x-4 gap-4 max-w-[1280px]'>
+        <div className='m-auto carousel carousel-center w-[98svw] space-x-4 gap-4 md:max-w-screen-xl'>
           <div className='carousel-item'>
             <div className='card card-compact rounded-[25px] shadow-sm w-[350px]'>
               <figure>

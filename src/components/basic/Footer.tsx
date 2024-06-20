@@ -5,7 +5,7 @@ import Instagram from "./../../assets/instagram.svg";
 export default function Footer() {
   return (
     <>
-      <footer className='footer pt-10 bg-bg text-base-content  border-t border-base-300'>
+      <footer className='footer pt-10  text-base-content  border-t border-base-300 max-w-screen-xl mx-auto p-4 '>
         {/* ------------------ LINKS ON THE PHONE ---------------- */}
 
         <nav className=' md:hidden  flex flex-col items-center justify-between w-full py-4'>
@@ -45,7 +45,7 @@ export default function Footer() {
             debitis porro quo nesciunt!
           </p>
           {/* ------------------ LINKS ON THE PC ---------------- */}
-          <nav className='hidden relative md:flex items-center justify-between w-full py-4'>
+          <nav className='hidden relative md:flex items-center justify-between w-full py-4 my-4'>
             <div>
               <img src={fullLogo} alt='Logo' className='h-[100px]' />
             </div>
@@ -96,7 +96,6 @@ export default function Footer() {
           <a className='link link-hover'>Cookie policy</a>
         </nav>
       </footer>
-      <footer className='footer px-10 py-4  bg-bg text-base-content'></footer>
     </>
   );
 }
