@@ -26,7 +26,6 @@ const config: Config = {
       },
     },
   },
-  // eslint-disable-next-line no-undef
   plugins: [require("daisyui")],
   daisyui: {
     themes: [
@@ -46,4 +45,5 @@ const config: Config = {
     ],
   },
 };
+
 export default config;
