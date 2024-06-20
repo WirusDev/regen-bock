@@ -1,7 +1,6 @@
-// next.config.js
-const path = require("path");
+import path from "path";
 
-module.exports = {
+const nextConfig = {
   webpack(config, { isServer }) {
     config.module.rules.push({
       test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)$/,
@@ -20,3 +19,5 @@ module.exports = {
     return config;
   },
 };
+
+export default nextConfig;

@@ -1,5 +1,6 @@
 import fullLogo from "./../../public/RegenBock_Logo.svg";
 import Image from "next/image";
+import Link from "next/link";
 export default function Navbar() {
   return (
     <div className='navbar  bg-navbar-gradient bg-cover bg-right-left h-[50px] z-50 text-black rounded-full w-full max-w-[1248px] mx-auto px-4 sticky top-2'>
@@ -31,18 +32,18 @@ export default function Navbar() {
             className='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#D9D3DB] rounded-box w-52' //bg-navbar-gradient bg-cover bg-center
           >
             <li>
-              <a href='/'>Homepage</a>
+              <Link href='/'>Homepage</Link>
             </li>
             <li>
-              <a href='/corporate'>Corporate</a>
+              <Link href='/corporate'>Corporate</Link>
             </li>
           </ul>
         </div>
       </div>
       <div className='navbar-center align-items-center justify-center'>
-        <a className='btn btn-ghost  text-xl' href='/'>
+        <Link className='btn btn-ghost  text-xl' href='/'>
           <Image src={fullLogo} alt='Logo' className='h-[45px] w-fit cover' />
-        </a>
+        </Link>
       </div>
       <div className='navbar-end'>
         {/* -----------------------Search----------------------- */}
