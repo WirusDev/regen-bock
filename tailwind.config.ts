@@ -1,5 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+import type { Config } from "tailwindcss";
+
+const config: Config = {
   darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -23,9 +24,6 @@ export default {
           dark: "#111827",
         },
       },
-      fontSize: {
-        "9xl": ["50rem"],
-      },
     },
   },
   // eslint-disable-next-line no-undef
@@ -48,3 +46,4 @@ export default {
     ],
   },
 };
+export default config;
