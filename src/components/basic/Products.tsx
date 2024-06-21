@@ -10,13 +10,21 @@ const Products = () => {
     <div className='max-w-screen-xl my-8'>
       <p className='bold-p'>Tagline</p>
       <h1 className='5xl'>Products</h1>
-      <p className=''>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel reiciendis
-      </p>
+
+      <span className='indicator-item badge badge-primary badge-lg mr-2'>
+        100% RECYCLED
+      </span>
+      <span className='indicator-item badge badge-primary badge-lg mr-2'>
+        MODERN
+      </span>
+      <span className='indicator-item badge badge-primary badge-lg mr-2'>
+        KOMFORT
+      </span>
+
       <div className=' pt-12 pb-[100px]'>
         <div className='m-auto carousel carousel-center w-[98svw] space-x-4 gap-4 md:max-w-screen-xl'>
-          <div className='carousel-item'>
-            <div className='card card-compact rounded-[25px] shadow-sm w-[350px]'>
+          <div className='carousel-item '>
+            <div className='card card-compact rounded-[25px] shadow-sm w-[350px] '>
               <figure>
                 <img
                   className='aspect-square w-full object-cover'
@@ -24,6 +32,7 @@ const Products = () => {
                   alt='Shoes'
                 />
               </figure>
+
               <div className='card-body'>
                 <h2 className='card-title text-xl'>Transparent Regenjake</h2>
                 <div className='flex justify-between w-full'>

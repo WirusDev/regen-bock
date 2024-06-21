@@ -76,8 +76,8 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
 export default function ParalaxAnimation() {
   return (
     <section className='animation py-6 ' id='about'>
-      <ParallaxText baseVelocity={-5}>NEW NEW NEW NEW NEW NEW NEW</ParallaxText>
-      <ParallaxText baseVelocity={5}>NEW NEW NEW NEW NEW NEW NEW</ParallaxText>
+      <ParallaxText baseVelocity={-5}>100% RECYCLED 100% RECYCLED</ParallaxText>
+      <ParallaxText baseVelocity={5}>100% RECYCLED 100% RECYCLED</ParallaxText>
     </section>
   );
 }
