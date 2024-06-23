@@ -14,7 +14,7 @@ export default function Footer() {
           </div>
           <div className='w-full  flex items-center justify-around space-x-4 mb-4 mr-4'>
             <a
-              href='https://www.instagram.com'
+              href='hhttps://www.instagram.com/regenbock/'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -39,10 +39,9 @@ export default function Footer() {
         <nav>
           <h6 className='footer-title opacity-100'>About</h6>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            accusantium voluptates molestias magnam repellendus velit pariatur
-            excepturi quis perspiciatis ad alias iure nostrum, ipsa vitae illo
-            debitis porro quo nesciunt!
+            Wir streben danach, Menschen dazu zu ermutigen, den Regen „zu
+            umarmen“ und dabei umweltfreundliche Produk- te zu verwenden, die
+            ihren Lebensstil ergänzen und ihnen einzigartige Erfahrungen bieten.
           </p>
           {/* ------------------ LINKS ON THE PC ---------------- */}
           <nav className='hidden relative md:flex items-center justify-between w-full py-4 my-4'>
@@ -51,7 +50,7 @@ export default function Footer() {
             </div>
             <div className='absolute bottom-0 right-10 flex items-center space-x-4 mb-4 mr-4'>
               <a
-                href='https://www.instagram.com'
+                href='https://www.instagram.com/regenbock/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
