@@ -1,6 +1,5 @@
-Here's the complete code for your `README.md` file:
+### README.md
 
-```markdown
 # Regen-Bock
 
 Regen-Bock is a project based on React with TypeScript and Vite. It supports Hot Module Replacement (HMR) and includes ESLint configurations to ensure high code quality.
@@ -73,6 +72,3 @@ For any inquiries or support, please contact [Your Email](mailto:your-email@exam
 ### Acknowledgments
 
 Special thanks to all contributors and those who provided feedback and suggestions.
-```
-
-You can copy and paste this code into your `README.md` file in your GitHub repository.
